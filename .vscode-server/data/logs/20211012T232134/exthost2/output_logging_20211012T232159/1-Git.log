@@ -1,0 +1,39 @@
+Validating found git in: git
+Using git 2.7.4 from git
+> git rev-parse --git-dir
+Open repository: /root/openairinterface5g
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/bandwidth-testing-abs-sr-bsr-multiple_ue refs/remotes/bandwidth-testing-abs-sr-bsr-multiple_ue
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :openair1/SCHED_NR/fapi_nr_l1.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR/fapi_nr_l1.c
+> git cat-file -s b2a802ab0875a71cbf9917bb092b152984d36de8
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :openair2/LAYER2/NR_MAC_gNB/gNB_scheduler_primitives.c
+> git ls-files --stage -- /root/openairinterface5g/openair2/LAYER2/NR_MAC_gNB/gNB_scheduler_primitives.c
+> git cat-file -s 937abb1967754ef99d9120c51aca9755c523a2b8
+> git check-ignore -v -z --stdin
+> git show --textconv :openair2/LAYER2/NR_MAC_gNB/gNB_scheduler_dlsch.c
+> git ls-files --stage -- /root/openairinterface5g/openair2/LAYER2/NR_MAC_gNB/gNB_scheduler_dlsch.c
+> git cat-file -s 587b1a710092e0430bb4c7bdc82bb722f57b9d64
+> git show --textconv :openair2/LAYER2/NR_MAC_gNB/gNB_scheduler_primitives.c
+> git ls-files --stage -- /root/openairinterface5g/openair2/LAYER2/NR_MAC_gNB/gNB_scheduler_primitives.c
+> git cat-file -s 937abb1967754ef99d9120c51aca9755c523a2b8
+> git show --textconv :openair2/LAYER2/NR_MAC_gNB/gNB_scheduler_dlsch.c
+> git ls-files --stage -- /root/openairinterface5g/openair2/LAYER2/NR_MAC_gNB/gNB_scheduler_dlsch.c
+> git cat-file -s 587b1a710092e0430bb4c7bdc82bb722f57b9d64
+> git show --textconv :openair2/LAYER2/NR_MAC_gNB/gNB_scheduler_primitives.c
+> git ls-files --stage -- /root/openairinterface5g/openair2/LAYER2/NR_MAC_gNB/gNB_scheduler_primitives.c
+> git cat-file -s 937abb1967754ef99d9120c51aca9755c523a2b8
+> git show --textconv :openair2/LAYER2/NR_MAC_gNB/gNB_scheduler_dlsch.c
+> git ls-files --stage -- /root/openairinterface5g/openair2/LAYER2/NR_MAC_gNB/gNB_scheduler_dlsch.c
+> git cat-file -s 587b1a710092e0430bb4c7bdc82bb722f57b9d64
+> git show --textconv :openair2/LAYER2/NR_MAC_gNB/gNB_scheduler_primitives.c
+> git ls-files --stage -- /root/openairinterface5g/openair2/LAYER2/NR_MAC_gNB/gNB_scheduler_primitives.c
+> git cat-file -s 937abb1967754ef99d9120c51aca9755c523a2b8

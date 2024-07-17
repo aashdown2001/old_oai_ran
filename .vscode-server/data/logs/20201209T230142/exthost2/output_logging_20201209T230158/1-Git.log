@@ -1,0 +1,161 @@
+Looking for git in: git
+Using git 2.7.4 from git
+> git rev-parse --git-dir
+Open repository: /root/openairinterface5g
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse develop
+> git rev-parse --symbolic-full-name develop@{u}
+> git rev-list --left-right develop...refs/remotes/origin/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :openair1/PHY/NR_UE_TRANSPORT/nr_dlsch_demodulation.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/PHY/NR_UE_TRANSPORT/nr_dlsch_demodulation.c
+> git cat-file -s 81349f202cc58b7a76f5ee42549dcba3c221c133
+> git check-ignore -v -z --stdin
+> git show --textconv :openair1/PHY/LTE_UE_TRANSPORT/dci_tools_ue.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/PHY/LTE_UE_TRANSPORT/dci_tools_ue.c
+> git cat-file -s 4f65edd6d5fe5b87fac4866b08ce23ca4e8ea879
+> git show --textconv :openair1/PHY/NR_UE_TRANSPORT/nr_dlsch_demodulation.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/PHY/NR_UE_TRANSPORT/nr_dlsch_demodulation.c
+> git cat-file -s 81349f202cc58b7a76f5ee42549dcba3c221c133
+> git show --textconv :openair1/SCHED_NR_UE/fapi_nr_ue_l1.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR_UE/fapi_nr_ue_l1.c
+> git cat-file -s c600343ed019b9a8f29a0fa9423a796891d40dbd
+> git check-ignore -v -z --stdin
+> git show --textconv :openair1/SCHED_NR_UE/harq_nr.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR_UE/harq_nr.c
+> git cat-file -s bf17da9b8cf9e7308105dc80d7db338ca47c8f12
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :openair1/SCHED_NR_UE/harq_nr.h
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR_UE/harq_nr.h
+> git cat-file -s c6d47a91ef9ab3df0fd60cbfc02f93abc5c14776
+> git show --textconv :openair1/SCHED_NR_UE/harq_nr.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR_UE/harq_nr.c
+> git cat-file -s bf17da9b8cf9e7308105dc80d7db338ca47c8f12
+> git show --textconv :openair1/SCHED_NR_UE/fapi_nr_ue_l1.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR_UE/fapi_nr_ue_l1.c
+> git cat-file -s c600343ed019b9a8f29a0fa9423a796891d40dbd
+> git show --textconv :openair1/SCHED_NR_UE/harq_nr.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR_UE/harq_nr.c
+> git cat-file -s bf17da9b8cf9e7308105dc80d7db338ca47c8f12
+> git show --textconv :openair1/SCHED_NR_UE/fapi_nr_ue_l1.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR_UE/fapi_nr_ue_l1.c
+> git cat-file -s c600343ed019b9a8f29a0fa9423a796891d40dbd
+> git show --textconv :openair1/SCHED_NR_UE/harq_nr.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR_UE/harq_nr.c
+> git cat-file -s bf17da9b8cf9e7308105dc80d7db338ca47c8f12
+> git show --textconv :openair1/SCHED_NR_UE/fapi_nr_ue_l1.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR_UE/fapi_nr_ue_l1.c
+> git cat-file -s c600343ed019b9a8f29a0fa9423a796891d40dbd
+> git show --textconv :openair1/PHY/NR_UE_TRANSPORT/nr_dlsch_demodulation.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/PHY/NR_UE_TRANSPORT/nr_dlsch_demodulation.c
+> git cat-file -s 81349f202cc58b7a76f5ee42549dcba3c221c133
+> git show --textconv :openair1/SCHED_NR_UE/harq_nr.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR_UE/harq_nr.c
+> git cat-file -s bf17da9b8cf9e7308105dc80d7db338ca47c8f12
+> git show --textconv :openair1/SCHED_NR_UE/harq_nr.h
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR_UE/harq_nr.h
+> git cat-file -s c6d47a91ef9ab3df0fd60cbfc02f93abc5c14776
+> git check-ignore -v -z --stdin
+> git show --textconv :openair1/PHY/NR_UE_TRANSPORT/nr_transport_ue.h
+> git ls-files --stage -- /root/openairinterface5g/openair1/PHY/NR_UE_TRANSPORT/nr_transport_ue.h
+> git cat-file -s 7d0febbb5a6aa0a958198736a1c8cf6fa57cb1f7
+> git check-ignore -v -z --stdin
+> git show --textconv :openair1/PHY/NR_UE_TRANSPORT/nr_transport_proto_ue.h
+> git ls-files --stage -- /root/openairinterface5g/openair1/PHY/NR_UE_TRANSPORT/nr_transport_proto_ue.h
+> git cat-file -s c74d887101b8d57a4d46b025fd19c3a8e0972a4f
+> git show --textconv :openair1/PHY/NR_UE_TRANSPORT/nr_transport_ue.h
+> git ls-files --stage -- /root/openairinterface5g/openair1/PHY/NR_UE_TRANSPORT/nr_transport_ue.h
+> git cat-file -s 7d0febbb5a6aa0a958198736a1c8cf6fa57cb1f7
+> git show --textconv :nfapi/open-nFAPI/nfapi/public_inc/fapi_nr_ue_interface.h
+> git ls-files --stage -- /root/openairinterface5g/nfapi/open-nFAPI/nfapi/public_inc/fapi_nr_ue_interface.h
+> git cat-file -s da8490160211f17ef2a94f976628c13e9ee7fcc2
+> git check-ignore -v -z --stdin
+> git show --textconv :openair1/PHY/NR_UE_TRANSPORT/nr_transport_ue.h
+> git ls-files --stage -- /root/openairinterface5g/openair1/PHY/NR_UE_TRANSPORT/nr_transport_ue.h
+> git cat-file -s 7d0febbb5a6aa0a958198736a1c8cf6fa57cb1f7
+> git show --textconv :nfapi/open-nFAPI/nfapi/public_inc/fapi_nr_ue_interface.h
+> git ls-files --stage -- /root/openairinterface5g/nfapi/open-nFAPI/nfapi/public_inc/fapi_nr_ue_interface.h
+> git cat-file -s da8490160211f17ef2a94f976628c13e9ee7fcc2
+> git show --textconv :openair1/SCHED_NR_UE/harq_nr.h
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR_UE/harq_nr.h
+> git cat-file -s c6d47a91ef9ab3df0fd60cbfc02f93abc5c14776
+> git show --textconv :openair1/SCHED_NR_UE/harq_nr.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR_UE/harq_nr.c
+> git cat-file -s bf17da9b8cf9e7308105dc80d7db338ca47c8f12
+> git show --textconv :openair1/SCHED_NR_UE/fapi_nr_ue_l1.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR_UE/fapi_nr_ue_l1.c
+> git cat-file -s c600343ed019b9a8f29a0fa9423a796891d40dbd
+> git show --textconv :openair1/PHY/NR_UE_TRANSPORT/nr_dlsch_demodulation.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/PHY/NR_UE_TRANSPORT/nr_dlsch_demodulation.c
+> git cat-file -s 81349f202cc58b7a76f5ee42549dcba3c221c133
+> git show --textconv :openair1/SCHED_NR_UE/fapi_nr_ue_l1.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR_UE/fapi_nr_ue_l1.c
+> git cat-file -s c600343ed019b9a8f29a0fa9423a796891d40dbd
+> git show --textconv :openair1/SCHED_NR_UE/harq_nr.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR_UE/harq_nr.c
+> git cat-file -s bf17da9b8cf9e7308105dc80d7db338ca47c8f12
+> git show --textconv :openair1/SCHED_NR_UE/fapi_nr_ue_l1.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR_UE/fapi_nr_ue_l1.c
+> git cat-file -s c600343ed019b9a8f29a0fa9423a796891d40dbd
+> git show --textconv :openair1/SCHED_NR_UE/harq_nr.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR_UE/harq_nr.c
+> git cat-file -s bf17da9b8cf9e7308105dc80d7db338ca47c8f12
+> git show --textconv :openair1/SCHED_NR_UE/fapi_nr_ue_l1.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR_UE/fapi_nr_ue_l1.c
+> git cat-file -s c600343ed019b9a8f29a0fa9423a796891d40dbd
+> git show --textconv :openair1/SCHED_NR_UE/harq_nr.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR_UE/harq_nr.c
+> git cat-file -s bf17da9b8cf9e7308105dc80d7db338ca47c8f12
+> git show --textconv :openair1/SCHED_NR_UE/fapi_nr_ue_l1.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR_UE/fapi_nr_ue_l1.c
+> git cat-file -s c600343ed019b9a8f29a0fa9423a796891d40dbd
+> git show --textconv :openair1/PHY/NR_UE_TRANSPORT/nr_dlsch_demodulation.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/PHY/NR_UE_TRANSPORT/nr_dlsch_demodulation.c
+> git cat-file -s 81349f202cc58b7a76f5ee42549dcba3c221c133
+> git show --textconv :openair1/SCHED_NR_UE/fapi_nr_ue_l1.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR_UE/fapi_nr_ue_l1.c
+> git cat-file -s c600343ed019b9a8f29a0fa9423a796891d40dbd
+> git show --textconv :openair1/PHY/NR_UE_TRANSPORT/nr_dlsch_demodulation.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/PHY/NR_UE_TRANSPORT/nr_dlsch_demodulation.c
+> git cat-file -s 81349f202cc58b7a76f5ee42549dcba3c221c133
+> git show --textconv :openair1/SCHED_NR_UE/fapi_nr_ue_l1.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR_UE/fapi_nr_ue_l1.c
+> git cat-file -s c600343ed019b9a8f29a0fa9423a796891d40dbd
+> git show --textconv :openair1/SCHED_NR_UE/harq_nr.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR_UE/harq_nr.c
+> git cat-file -s bf17da9b8cf9e7308105dc80d7db338ca47c8f12
+> git show --textconv :openair1/SCHED_NR_UE/fapi_nr_ue_l1.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR_UE/fapi_nr_ue_l1.c
+> git cat-file -s c600343ed019b9a8f29a0fa9423a796891d40dbd
+> git show --textconv :openair1/SCHED_NR_UE/harq_nr.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR_UE/harq_nr.c
+> git cat-file -s bf17da9b8cf9e7308105dc80d7db338ca47c8f12
+> git show --textconv :openair1/PHY/NR_UE_TRANSPORT/nr_dlsch_demodulation.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/PHY/NR_UE_TRANSPORT/nr_dlsch_demodulation.c
+> git cat-file -s 81349f202cc58b7a76f5ee42549dcba3c221c133
+> git show --textconv :openair1/SCHED_NR_UE/fapi_nr_ue_l1.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR_UE/fapi_nr_ue_l1.c
+> git cat-file -s c600343ed019b9a8f29a0fa9423a796891d40dbd
+> git check-ignore -v -z --stdin
+> git show --textconv :openair2/LAYER2/NR_MAC_UE/nr_ue_procedures.c
+> git ls-files --stage -- /root/openairinterface5g/openair2/LAYER2/NR_MAC_UE/nr_ue_procedures.c
+> git cat-file -s 5e615b49f47dd31a3c028bb2123609dc5ef0cc9a
+> git show --textconv :openair1/SCHED_NR_UE/fapi_nr_ue_l1.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR_UE/fapi_nr_ue_l1.c
+> git cat-file -s c600343ed019b9a8f29a0fa9423a796891d40dbd
+> git show --textconv :openair2/NR_PHY_INTERFACE/NR_IF_Module.c
+> git ls-files --stage -- /root/openairinterface5g/openair2/NR_PHY_INTERFACE/NR_IF_Module.c
+> git cat-file -s 4e1a8ae1310f246e8e893691ee4da6f172783813
+> git check-ignore -v -z --stdin
+> git show --textconv :openair1/PHY/NR_UE_TRANSPORT/nr_dlsch_demodulation.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/PHY/NR_UE_TRANSPORT/nr_dlsch_demodulation.c
+> git cat-file -s 81349f202cc58b7a76f5ee42549dcba3c221c133
+> git show --textconv :openair1/SCHED_NR_UE/fapi_nr_ue_l1.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR_UE/fapi_nr_ue_l1.c
+> git cat-file -s c600343ed019b9a8f29a0fa9423a796891d40dbd

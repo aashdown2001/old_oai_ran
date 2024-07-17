@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///root/.local/share/meld/recent-jbqMMu.meldcmp" added="2021-10-15T22:26:28Z" modified="2021-10-15T22:33:30Z" visited="2021-10-15T22:26:29Z">
+    <title>NB_scheduler_primitives.c.org : NB_scheduler_primitives.c</title>
+    <desc>File comparison
+/tmp/NB_scheduler_primitives.c.org, /root/openairinterface5g/openair2/LAYER2/NR_MAC_gNB/NB_scheduler_primitives.c</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-meld-comparison"/>
+        <bookmark:applications>
+          <bookmark:application name="Meld" exec="&apos;/usr/bin/meld --comparison-file %u&apos;" modified="2021-10-15T22:33:30Z" count="2"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///root/.local/share/meld/recent-PVP712.meldcmp" added="2021-10-15T22:33:03Z" modified="2021-10-15T22:33:03Z" visited="2021-10-15T22:33:03Z">
+    <title>NB_scheduler_primitives.c.org : NB_scheduler_primitives.c</title>
+    <desc>File comparison
+/tmp/NB_scheduler_primitives.c.org, /root/openairinterface5g/openair2/LAYER2/NR_MAC_gNB/openair2/LAYER2/NR_MAC_gNB/NB_scheduler_primitives.c</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-meld-comparison"/>
+        <bookmark:applications>
+          <bookmark:application name="Meld" exec="&apos;/usr/bin/meld --comparison-file %u&apos;" modified="2021-10-15T22:33:03Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///root/.local/share/meld/recent-pBa12d.meldcmp" added="2021-10-15T22:33:45Z" modified="2021-10-15T22:33:45Z" visited="2021-10-15T22:33:46Z">
+    <title>gNB_scheduler_primitives.c.org : gNB_scheduler_primitives.c</title>
+    <desc>File comparison
+/tmp/gNB_scheduler_primitives.c.org, /root/openairinterface5g/openair2/LAYER2/NR_MAC_gNB/gNB_scheduler_primitives.c</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-meld-comparison"/>
+        <bookmark:applications>
+          <bookmark:application name="Meld" exec="&apos;/usr/bin/meld --comparison-file %u&apos;" modified="2021-10-15T22:33:45Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///root/.local/share/meld/recent-j8gTp8.meldcmp" added="2021-10-15T22:34:02Z" modified="2021-10-15T22:34:02Z" visited="2021-10-15T22:34:03Z">
+    <title>gNB_scheduler_primitives.c.org : gNB_scheduler_primitives.c.mod</title>
+    <desc>File comparison
+/tmp/gNB_scheduler_primitives.c.org, /root/openairinterface5g/openair2/LAYER2/NR_MAC_gNB/gNB_scheduler_primitives.c.mod</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-meld-comparison"/>
+        <bookmark:applications>
+          <bookmark:application name="Meld" exec="&apos;/usr/bin/meld --comparison-file %u&apos;" modified="2021-10-15T22:34:02Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///root/.local/share/meld/recent-Z_8TuB.meldcmp" added="2021-10-15T22:54:48Z" modified="2021-10-19T20:51:32Z" visited="2021-10-15T22:54:49Z">
+    <title>gnb.sa.band78.fr1.106PRB.usrpb210.conf : my-gnb.sa.band78.fr1.106PRB.usrpb210.conf</title>
+    <desc>File comparison
+/root/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.106PRB.usrpb210.conf, /root/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/my-gnb.sa.band78.fr1.106PRB.usrpb210.conf</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-meld-comparison"/>
+        <bookmark:applications>
+          <bookmark:application name="Meld" exec="&apos;/usr/bin/meld --comparison-file %u&apos;" modified="2021-10-19T20:51:32Z" count="2"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///root/.local/share/meld/recent-AUyT_k.meldcmp" added="2021-10-19T19:34:25Z" modified="2021-10-19T19:34:25Z" visited="2021-10-19T19:34:27Z">
+    <title>gNB_scheduler_primitives.c : gNB_scheduler_primitives.c.cur</title>
+    <desc>File comparison
+/root/openairinterface5g/openair2/LAYER2/NR_MAC_gNB/gNB_scheduler_primitives.c, /root/openairinterface5g/openair2/LAYER2/NR_MAC_gNB/gNB_scheduler_primitives.c.cur</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-meld-comparison"/>
+        <bookmark:applications>
+          <bookmark:application name="Meld" exec="&apos;/usr/bin/meld --comparison-file %u&apos;" modified="2021-10-19T19:34:25Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///root/.local/share/meld/recent-6YkJuV.meldcmp" added="2021-10-19T19:49:39Z" modified="2021-10-19T19:49:39Z" visited="2021-10-19T19:49:41Z">
+    <title>gNB_scheduler_ulsch.c : gNB_scheduler_ulsch.c.trace</title>
+    <desc>File comparison
+/root/openairinterface5g/openair2/LAYER2/NR_MAC_gNB/gNB_scheduler_ulsch.c, /root/openairinterface5g/openair2/LAYER2/NR_MAC_gNB/gNB_scheduler_ulsch.c.trace</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-meld-comparison"/>
+        <bookmark:applications>
+          <bookmark:application name="Meld" exec="&apos;/usr/bin/meld --comparison-file %u&apos;" modified="2021-10-19T19:49:39Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///root/.local/share/meld/recent-9lS7OA.meldcmp" added="2021-10-20T21:46:02Z" modified="2021-11-16T18:12:16Z" visited="2021-10-20T21:46:02Z">
+    <title>gnb.sa.band78.fr1.106PRB.usrpb210.conf.mod : gnb.sa.band78.fr1.106PRB.usrpb210.conf</title>
+    <desc>File comparison
+/root/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.106PRB.usrpb210.conf.mod, /root/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.106PRB.usrpb210.conf</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-meld-comparison"/>
+        <bookmark:applications>
+          <bookmark:application name="Meld" exec="&apos;/usr/bin/meld --comparison-file %u&apos;" modified="2021-11-16T18:12:16Z" count="2"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

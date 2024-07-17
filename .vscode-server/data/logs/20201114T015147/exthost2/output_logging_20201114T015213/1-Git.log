@@ -1,0 +1,60 @@
+Looking for git in: git
+Using git 2.7.4 from git
+> git rev-parse --git-dir
+Open repository: /root/oai_w40/openairinterface5g
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse NR_UE_MAC_scheduler
+> git rev-parse --symbolic-full-name NR_UE_MAC_scheduler@{u}
+> git rev-list --left-right NR_UE_MAC_scheduler...refs/remotes/origin/NR_UE_MAC_scheduler
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :openair1/SCHED_NR_UE/pucch_uci_ue_nr.h
+> git ls-files --stage -- /root/oai_w40/openairinterface5g/openair1/SCHED_NR_UE/pucch_uci_ue_nr.h
+> git cat-file -s 089fae9f55cbb328617d4cef498477656713d433
+> git check-ignore -v -z --stdin
+> git show --textconv :openair1/SCHED_NR_UE/pucch_uci_ue_nr.c
+> git ls-files --stage -- /root/oai_w40/openairinterface5g/openair1/SCHED_NR_UE/pucch_uci_ue_nr.c
+> git cat-file -s ccbe5021945d7cdd0fa7711b9effe5c69da73c7f
+> git show --textconv :openair1/PHY/NR_UE_TRANSPORT/nr_ulsch_coding.c
+> git ls-files --stage -- /root/oai_w40/openairinterface5g/openair1/PHY/NR_UE_TRANSPORT/nr_ulsch_coding.c
+> git check-ignore -v -z --stdin
+> git cat-file -s ee10c96c206767d34eae4a95c0921f45faab559e
+> git show --textconv :openair1/PHY/CODING/nr_rate_matching.c
+> git ls-files --stage -- /root/oai_w40/openairinterface5g/openair1/PHY/CODING/nr_rate_matching.c
+> git cat-file -s efa5abdc90004cae6cd8eab61ab899f43c5347aa
+> git check-ignore -v -z --stdin
+> git show --textconv :openair1/SCHED_NR_UE/pucch_uci_ue_nr.c
+> git ls-files --stage -- /root/oai_w40/openairinterface5g/openair1/SCHED_NR_UE/pucch_uci_ue_nr.c
+> git cat-file -s ccbe5021945d7cdd0fa7711b9effe5c69da73c7f
+> git check-ignore -v -z --stdin
+> git show --textconv :openair1/PHY/impl_defs_nr.h
+> git ls-files --stage -- /root/oai_w40/openairinterface5g/openair1/PHY/impl_defs_nr.h
+> git cat-file -s 3e09f3f593e2bebc905bdb77311a83ad70243507
+> git show --textconv :openair1/SCHED_NR_UE/pucch_uci_ue_nr.c
+> git ls-files --stage -- /root/oai_w40/openairinterface5g/openair1/SCHED_NR_UE/pucch_uci_ue_nr.c
+> git cat-file -s ccbe5021945d7cdd0fa7711b9effe5c69da73c7f
+> git show --textconv :openair1/PHY/impl_defs_nr.h
+> git ls-files --stage -- /root/oai_w40/openairinterface5g/openair1/PHY/impl_defs_nr.h
+> git cat-file -s 3e09f3f593e2bebc905bdb77311a83ad70243507
+> git show --textconv :openair1/SCHED_NR_UE/pucch_uci_ue_nr.c
+> git ls-files --stage -- /root/oai_w40/openairinterface5g/openair1/SCHED_NR_UE/pucch_uci_ue_nr.c
+> git cat-file -s ccbe5021945d7cdd0fa7711b9effe5c69da73c7f
+> git show --textconv HEAD:openair1/SCHED_NR_UE/pucch_uci_ue_nr.c
+> git ls-tree -l HEAD -- /root/oai_w40/openairinterface5g/openair1/SCHED_NR_UE/pucch_uci_ue_nr.c
+> git check-ignore -v -z --stdin
+> git show --textconv :openair2/LAYER2/NR_MAC_UE/nr_ue_procedures.c
+> git ls-files --stage -- /root/oai_w40/openairinterface5g/openair2/LAYER2/NR_MAC_UE/nr_ue_procedures.c
+> git cat-file -s b65d1595154f9baf0a34a8121ea02efa57a87a2d
+> git show --textconv :openair1/SCHED_NR_UE/pucch_uci_ue_nr.c
+> git ls-files --stage -- /root/oai_w40/openairinterface5g/openair1/SCHED_NR_UE/pucch_uci_ue_nr.c
+> git cat-file -s ccbe5021945d7cdd0fa7711b9effe5c69da73c7f
+> git show --textconv :openair2/LAYER2/NR_MAC_UE/nr_ue_procedures.c
+> git ls-files --stage -- /root/oai_w40/openairinterface5g/openair2/LAYER2/NR_MAC_UE/nr_ue_procedures.c
+> git cat-file -s b65d1595154f9baf0a34a8121ea02efa57a87a2d
+> git show --textconv :openair1/SCHED_NR_UE/pucch_uci_ue_nr.c
+> git ls-files --stage -- /root/oai_w40/openairinterface5g/openair1/SCHED_NR_UE/pucch_uci_ue_nr.c
+> git cat-file -s ccbe5021945d7cdd0fa7711b9effe5c69da73c7f

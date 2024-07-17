@@ -1,0 +1,4 @@
+[Comparison]
+type = File
+paths = /tmp/gNB_scheduler_primitives.c.org;/root/openairinterface5g/openair2/LAYER2/NR_MAC_gNB/gNB_scheduler_primitives.c
+

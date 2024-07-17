@@ -1,0 +1,21 @@
+[cliff.colosseum]
+gps_info = colosseum_cli.gps:gps_info
+gps_scenario_list = colosseum_cli.gps:gps_scenario_list
+gps_start = colosseum_cli.gps:gps_start
+gps_stop = colosseum_cli.gps:gps_stop
+rf_info = colosseum_cli.rf_scenario:rf_scenario_info
+rf_radiomap = colosseum_cli.rf_scenario:rf_scenario_radio_map
+rf_scenario_list = colosseum_cli.rf_scenario:rf_scenario_list
+rf_scenario_nodelist = colosseum_cli.rf_scenario:rf_scenario_list_nodes
+rf_start = colosseum_cli.rf_scenario:rf_scenario_start
+rf_stop = colosseum_cli.rf_scenario:rf_scenario_stop
+snapshot = colosseum_cli.container:container_snapshot
+tg_info = colosseum_cli.tgen:tgen_info
+tg_nodemap = colosseum_cli.tgen:tgen_nodemap
+tg_scenario_list = colosseum_cli.tgen:tgen_scenario_list
+tg_start = colosseum_cli.tgen:tgen_start
+tg_stop = colosseum_cli.tgen:tgen_stop
+
+[console_scripts]
+colosseumcli = colosseum_cli.cli_app:main
+

@@ -1,0 +1,46 @@
+================================================================================
+Frequency Band
+--------------
+The config by default is set to run the gNB in band 78 at 3619.20 MHz. In Colosseum use the RF scenario 10011 as it runs at 3.62 GHz.
+
+================================================================================
+Deploying OAI in 5G Standalone Mode with OAI 5G core network:
+------------------------------------------------------------
+
+Running gNB:
+-----------
+sa_gnb_run.sh: This script can be used to run gNB in end-to-end SA mode. This 
+script first detects and sets the route towards the core network docker
+containers. The script then updates the gNB config file with the IP address of
+the col0 interface which gNB uses to communicate with the core network.  
+
+The gNB config file is located at openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.106PRB.usrpb210.conf.
+
+The gNB log file is stored at the location ~/mylogs
+
+Running NR UE (separate host than gNB):
+--------------------------------------
+sa_nrue_run.sh: This script runs NR UE in end-to-end SA mode
+
+After the UE successfully registers with the core network and a PDU session is
+created, the UE is assigned an IP address. To check the UE IP address, run:
+$ ifconfig oaitun_ue1
+
+In SA mode, after UE is assigned an IP address and before starting user-plane
+traffic, use the following command to set the default route at host running UE
+to route the traffic through OAI core network.
+$ route add default gw 12.1.1.1
+
+sa_nrue1_run.sh, sa_nrue2_run.sh, sa_nrue3_run.sh: These scripts can be used to run additional instances of NR UE (on separate SRNs) to run experiments with multiple UEs. The scripts use the command line option '--uicc0.imsi' to specify a different IMSI value for each UE.
+
+The nrUE log file is stored at the location ~/mylogs
+
+================================================================================
+Deploying OAI in "noS1" mode:
+----------------------------
+
+nos1_gnb_run.sh: Runs OAI gNB in "noS1" mode
+
+nos1_nrue_run.sh: Runs OAI UE in "noS1" mode
+
+Log files are stored at the location ~/mylogs

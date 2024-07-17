@@ -1,0 +1,50 @@
+Looking for git in: git
+Using git 2.7.4 from git
+> git rev-parse --git-dir
+Open repository: /root/openairinterface5g
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse develop
+> git rev-parse --symbolic-full-name develop@{u}
+> git rev-list --left-right develop...refs/remotes/origin/develop
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :openair1/SCHED_UE/phy_procedures_lte_ue.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_UE/phy_procedures_lte_ue.c
+> git cat-file -s 3215718f8ec4805c5c9d4371e90c09a5086ad662
+> git check-ignore -v -z --stdin
+> git show --textconv :openair1/SCHED_NR_UE/pucch_uci_ue_nr.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR_UE/pucch_uci_ue_nr.c
+> git cat-file -s a4ff68dd869eb5f926c49990bb3dc4faa481c726
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :executables/nr-ue.c
+> git ls-files --stage -- /root/openairinterface5g/executables/nr-ue.c
+> git cat-file -s c1c6e98a41714e5f5ace665da5a897980a2734f7
+> git show --textconv :openair1/SCHED_NR_UE/pucch_uci_ue_nr.c
+> git ls-files --stage -- /root/openairinterface5g/openair1/SCHED_NR_UE/pucch_uci_ue_nr.c
+> git cat-file -s a4ff68dd869eb5f926c49990bb3dc4faa481c726
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :openair2/LAYER2/NR_MAC_UE/nr_ue_procedures.c
+> git ls-files --stage -- /root/openairinterface5g/openair2/LAYER2/NR_MAC_UE/nr_ue_procedures.c
+> git cat-file -s a22291092bddf1bac1d135a2c1f054b2630078b7
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :nfapi/open-nFAPI/nfapi/public_inc/fapi_nr_ue_interface.h
+> git ls-files --stage -- /root/openairinterface5g/nfapi/open-nFAPI/nfapi/public_inc/fapi_nr_ue_interface.h
+> git cat-file -s 87a4d6f6af96ac2463434466bc9f4fab5d6e2132
+> git check-ignore -v -z --stdin
+> git show --textconv :openair2/LAYER2/NR_MAC_UE/nr_ue_procedures.c
+> git ls-files --stage -- /root/openairinterface5g/openair2/LAYER2/NR_MAC_UE/nr_ue_procedures.c
+> git cat-file -s a22291092bddf1bac1d135a2c1f054b2630078b7
+> git show --textconv HEAD:openair2/LAYER2/NR_MAC_UE/nr_ue_procedures.c
+> git ls-tree -l HEAD -- /root/openairinterface5g/openair2/LAYER2/NR_MAC_UE/nr_ue_procedures.c
+> git ls-files --stage -- /root/openairinterface5g/openair2/LAYER2/NR_MAC_UE/nr_ue_procedures.c
+> git cat-file -s a22291092bddf1bac1d135a2c1f054b2630078b7
+> git ls-files --stage -- /root/openairinterface5g/openair2/LAYER2/NR_MAC_UE/nr_ue_procedures.c
+> git cat-file -s a22291092bddf1bac1d135a2c1f054b2630078b7
